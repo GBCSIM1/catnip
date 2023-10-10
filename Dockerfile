@@ -1,4 +1,4 @@
 FROM ubuntu:latest
 WORKDIR /app
 COPY ./Filea/myprinter.sh .
-RUN . ./myprinter.sh ../Fileb/helloworld.txt
+RUN cat myprinter.sh
